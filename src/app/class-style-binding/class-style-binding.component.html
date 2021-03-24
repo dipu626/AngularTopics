@@ -1,0 +1,42 @@
+<div class="box" [class.myClass]="classOption">
+    Class Binding
+</div>
+
+<br> <br>
+
+<div class="box" [style.padding]="styleOption ? myStyle : '0'">
+    Style Binding
+</div>
+
+<br><br>
+
+<!-- ngClass = multiple class binding -->
+<div class="box" [ngClass]="isngClassActive ? 'class1 class2 class3' : ''">
+    ngClass
+</div>
+
+<br><br>
+
+<!-- multiclass method -->
+<div class="box" [ngClass]="multiClass">
+    multiClass ngClass
+</div>
+
+<br><br>
+
+<!-- multiStyle method -->
+<div class="box" [ngStyle]="{
+    'margin': '100px',
+    'padding': '5px',
+    'background-color': 'yellow',
+    'border': '1px solid black'
+}">
+    multiple style
+</div>
+
+<br><br>
+
+<!-- ngStyle with property -->
+<div class="box" [ngStyle]="multiStyle">
+    ngStyle with property
+</div>
