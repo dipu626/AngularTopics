@@ -3,12 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ClassStyleBindingComponent } from './class-style-binding/class-style-binding.component';
+import { EventBindingComponent } from './event-binding/event-binding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ClassStyleBindingComponent,
+    EventBindingComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,15 @@
+<p>event-binding works!</p>
+
+<!-- <button (click)="onAddToCart()">Add To Cart</button> 
+<br> <br>
+<p>{{msg}}</p> -->
+
+<input type="text" value="my input text" (keyup)="onClickInput($event)">
+<br>
+
+
+<button value="Laptop" (click)="onAddToCart($event)">Laptop</button>
+<button value="TV" (click)="onAddToCart($event)">Laptop</button>
+<button value="Washing Machine" (click)="onAddToCart($event)">Washing Machine</button>
+
+<p>{{msg}}</p>

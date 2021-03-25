@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ClassStyleBindingComponent } from './class-style-binding.component';
+import { EventBindingComponent } from './event-binding.component';
 
-describe('ClassStyleBindingComponent', () => {
-  let component: ClassStyleBindingComponent;
-  let fixture: ComponentFixture<ClassStyleBindingComponent>;
+describe('EventBindingComponent', () => {
+  let component: EventBindingComponent;
+  let fixture: ComponentFixture<EventBindingComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ClassStyleBindingComponent ]
+      declarations: [ EventBindingComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ClassStyleBindingComponent);
+    fixture = TestBed.createComponent(EventBindingComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
