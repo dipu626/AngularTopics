@@ -3,12 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { EventBindingComponent } from './event-binding/event-binding.component';
+import { TemplateReferenceVariableComponent } from './template-reference-variable/template-reference-variable.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    EventBindingComponent,
+    TemplateReferenceVariableComponent,
   ],
   imports: [
     BrowserModule,
