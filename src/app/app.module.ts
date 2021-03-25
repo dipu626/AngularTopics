@@ -1,18 +1,28 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import {FormsModule} from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TemplateReferenceVariableComponent } from './template-reference-variable/template-reference-variable.component';
+
+// ngx-bootstrap
+import { ButtonsModule } from 'ngx-bootstrap/buttons';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    TemplateReferenceVariableComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+
+    ButtonsModule.forRoot(),
+    CarouselModule.forRoot()
+
   ],
   providers: [],
   bootstrap: [AppComponent]

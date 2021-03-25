@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-topics-practice';
+
+  checkModel: any = { left: false, middle: true, right: false };
 }
